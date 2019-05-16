@@ -31,8 +31,7 @@
 .loginHelpLinks{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
-
+    justify-content: space-around;  
 }
 
 .loginHelpLinks > a {
@@ -40,13 +39,12 @@
     margin: 10px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .boxUserLogin {
         margin: 30px 100px;
     }
     .buttonUserLogin{        
         width: 20%;
-        margin: 20px auto;
-         
+        margin: 20px auto;         
     }
   }

@@ -11,7 +11,8 @@ class UserLogin extends Component {
 
     }
 
-
+// user login details to be passed as props from UserLogin to UserProfile
+// there to run a find function to retrieve the matching details
 
 
     render() {
