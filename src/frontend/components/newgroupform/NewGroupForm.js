@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import the css when is ready
 export default class NewGroupForm extends React.Component { 
     constructor(){
         super();
