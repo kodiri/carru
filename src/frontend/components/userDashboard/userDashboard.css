@@ -20,10 +20,6 @@
     padding: 4px;
 }
 
-.group-name li{
-    /* list-style-type: square; */
-}
-
 .group {
     background-color: rgb(238, 234, 234);
     width: 300px;
@@ -37,7 +33,6 @@ footer {
     bottom:0px;
     width:100%;
 }
-
 
 
 @media (min-width: 780px) {
@@ -62,46 +57,46 @@ footer {
         grid-gap: 25px;
 }
 
-h3 {
-    grid-row: 1;
-    grid-column: 1;
-    align-self: end;
-}
+    h3 {
+        grid-row: 1;
+        grid-column: 1;
+        align-self: end;
+    }
 
-.groups-table {
-    grid-column: 1;
-    grid-row: 2 /3;
-}
- 
-.one {
-    grid-row: 2;
-    grid-column: 2;
-}
+    .groups-table {
+        grid-column: 1;
+        grid-row: 2 /3;
+    }
+    
+    .one {
+        grid-row: 2;
+        grid-column: 2;
+    }
 
-.two {
-    grid-row: 2;
-    grid-column: 3;
-}
+    .two {
+        grid-row: 2;
+        grid-column: 3;
+    }
 
-.three {
-    grid-row: 2;
-    grid-column: 4;
-}
+    .three {
+        grid-row: 2;
+        grid-column: 4;
+    }
 
-.four {
-    grid-row: 3;
-    grid-column: 2;
-}
+    .four {
+        grid-row: 3;
+        grid-column: 2;
+    }
 
-.five {
-    grid-row: 3;
-    grid-column: 3;
-}
+    .five {
+        grid-row: 3;
+        grid-column: 3;
+    }
 
-.six {
-    grid-row: 3;
-    grid-column: 4;
-}
+    .six {
+        grid-row: 3;
+        grid-column: 4;
+    }
 }
 
 
