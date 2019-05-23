@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './userDashboard.css';
 import EventDashboard from './EventDashboard';
 import GroupDashboard from './GroupDashboard';
@@ -26,7 +27,8 @@ class userDashboard extends React.Component {
                             })
                     
                     }
-                    <button className='buttonNew'>New Group</button>
+                    <button className='buttonNew'><NavLink to='/new-group-form'>New Group</NavLink></button>
+                    <button className='buttonNew'><NavLink to='/join-event'>Join an existing event</NavLink></button>
                 </div>
                 <div className='dashboard-grid'>
                     <div className='dashboard-groups'>
@@ -43,8 +45,9 @@ class userDashboard extends React.Component {
                         })
                         }
                     </div>
-                    <button className='buttonNew'>New Event</button>
+                    <button className='buttonNew'><NavLink to='/new-event-form'>New Event</NavLink></button>
                 </div>
+                
             </div>
         )
     }
