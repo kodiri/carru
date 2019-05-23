@@ -4,7 +4,7 @@ export default function GroupDashboard(group) {
 
     return (
         <>
-            <a href='#'>
+            <a href='#/new-group-form'>
                 <div className='groups-table'>
                     <ul className='group-name'>
                         <li>{group.name}</li>
