@@ -1,6 +1,6 @@
 import React from "react";
 import {NavLink} from 'react-router-dom';
-//import "./UserProfile.css";
+import "./UserProfile.css";
 import "../UserForm/UserForm";
 
 import getUsers from  "../data/users-get";
@@ -24,7 +24,7 @@ class UserProfile extends React.Component {
                 <header className="headerUserProfile">
                     <h1>User Profile</h1>
                 </header>
-                <hr></hr>
+               
                 <form className="profileForm">
                     <div className="profileBox">
                         <div className="paraInputWrap">
@@ -74,11 +74,12 @@ class UserProfile extends React.Component {
                             </select>
                         </div>
                     </div>
-                    
+                    <NavLink to='/user-profile'><button>Edit Details</button></NavLink>
+                    <NavLink to='/user-dashboard'><button>Dashboard</button></NavLink>
                 </form>
+                
             </div>
-            <NavLink to='/user-profile'><button>Edit Details</button></NavLink>
-            <NavLink to='/user-dashboard'><button>Dashboard</button></NavLink>
+            
             </>
         );
     }
