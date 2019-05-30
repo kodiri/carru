@@ -7,7 +7,7 @@ class UserForm extends React.Component {
     super();
     this.state={ redirect: false };
   }
-
+// handle submit form
   handleSubmit(event) {
     event.preventDefault(event);
     const userName = document.getElementById("form_name").value;
