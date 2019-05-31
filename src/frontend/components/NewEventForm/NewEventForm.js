@@ -57,8 +57,8 @@ class NewEventForm extends React.Component {
   getGroup() {
     return this.state.groups.map(group => {
       return (
-        <option className="eventGroup" key={group.id} value={group.name}>
-          {group.name}
+        <option className="eventGroup" key={group.groupName} value={group.groupName}>
+          {group.groupName}
         </option>
       );
     });
