@@ -39,9 +39,9 @@ class userDashboard extends React.Component {
       <div className="dashboard">
         <header className="dashboard-header">
           <h2>User Name LastName</h2>
-          <hr />
+      
           <NavLink to="/user-profile">
-            <button style={{ marginLeft: "90%" }}>Profile</button>
+            <button>Profile</button>
           </NavLink>
         </header>
 
@@ -51,8 +51,8 @@ class userDashboard extends React.Component {
             {this.state.groups.map(group => {
               return (
                 <GroupDashboard
-                  name={group.name}
-                  description={group.description}
+                groupName={group.groupName}
+                groupDescription={group.groupDescription}
                 />
               );
             })}
