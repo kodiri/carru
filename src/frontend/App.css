@@ -2,6 +2,8 @@
 @import url('./components/homepage/Homepage.css');
 @import url('./components/footer/Footer.css');
 @import url('./components/UserDashboard/userDashboard.css');
+@import url('./components/NewGroupForm/NewGroupForm.css');
+@import url('./components/JoinEvent/JointEvent.css');
 
 
 * {
