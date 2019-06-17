@@ -1,52 +1,49 @@
-/* 
-.NewEventForm {
+
+/* .NewEventForm {
     display: flex;
     flex-direction: column;
     align-content: center;
-}
+} */
 
-.headerNewEventForm {
+/* .headerNewEventForm {
     padding: 10px;
     margin: 20px auto 10px 15px;
     font-size: 25px;
    
-}
+} */
 
-.NewEventForm {
+/* .NewEventForm {
     margin: 20px;
-}
-h2 {
-    text-align: left;
-}
-.paraInputWrap {
-    margin-right: 40px;
-    margin-top: 10px;    
-}
+} */
 
-.NewEventForm > h3 {
+/* .paraInputWrap {
+    width: 400px;
+} */
+
+/* .NewEventForm > h3 {
     padding: 5px 10px 2px 2px;
     margin: 2px 20px 2px 2px;
-}
+} */
 
-.NewEventInput, .membersBox {
+/* .NewEventInput, .membersBox {
     padding: 12px;
     border: solid 2px grey;
     border-radius: 10px;
-}
+} */
 
-.NewEventMessage {
+/* .NewEventMessage {
     
         padding: 5px 10px 2px 2px;
         margin: 2px 20px 2px 2px;
     
-}
+} */
 
-.NewEventButton {
+/* .NewEventButton {
     padding: 5px;
     margin: 20px auto 15px auto;
-}
+} */
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     .NewEventBox {
         display: flex;
         flex-direction: row;  
